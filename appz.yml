@@ -1,7 +1,7 @@
 app:
     name: blackbox-exporter
     code: blackbox-exporter
-    notify: fjoy@ecloudcontrol.com
+    notify: mmushraf@ecloudcontrol.com
     
 build:
     version: 0.2
