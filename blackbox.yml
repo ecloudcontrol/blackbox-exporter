@@ -1,10 +1,1 @@
-modules:
-  http:
-    prober: http
-    timeout: 10s
-    http:
-      method: GET
-      fail_if_ssl: false
-      fail_if_not_ssl: true  # Ensures the target uses SSL
-      tls_config:
-        insecure_skip_verify: false  # Set to true if you want to skip certificate verification
+
