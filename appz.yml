@@ -11,7 +11,7 @@ build:
     image_template: blackboxexporter-0.24
     
 deploy:
-    context: alpha/DEV
+    context: Cloudbourne/DEV
     replicas: 1
     port:
     - 9115
