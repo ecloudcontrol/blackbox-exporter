@@ -5,7 +5,7 @@ app:
     
 build:
     version: 0.2
-    env: DEV
+    env: PROD
     build_file: none
     output_files: output/*.zip
     image_template: blackboxexporter-0.25
