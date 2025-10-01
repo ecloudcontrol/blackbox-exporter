@@ -1,20 +1,20 @@
 app:
     name: blackbox-exporter
     code: blackbox-exporter
-    notify: mmushraf@ecloudcontrol.com
+    notify: srswain@ecloudcontrol.com
     
 build:
     version: 0.2
-    env: PROD
+    env: DEV
     build_file: none
     output_files: output/*.zip
     image_template: blackboxexporter-0.25
     
 deploy:
-    context: alpha/PROD
+    context: alpha/DEV
     replicas: 1
     port:
     - 9115
 
 properties:
-    revision : 13
+    revision : 0
