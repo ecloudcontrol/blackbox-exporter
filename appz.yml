@@ -15,6 +15,13 @@ deploy:
     replicas: 1
     port:
     - 9115
+    nodeSelector:
+      nodepool: toplist
+    tolerations:
+      - key: nodepool
+        operator: Equal
+        value: toplist
+        effect: NoSchedule
 
 properties:
     revision : 13
